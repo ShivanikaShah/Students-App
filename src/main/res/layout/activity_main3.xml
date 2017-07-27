@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="studentzone.studentzone.Main3Activity"
+    android:background="#4A148C">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
+        android:src="@drawable/student"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#E8EAF6"
+        android:layout_height="100dp"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:text=" WELCOME TO \n STUDENT ZONE INTERNSHIP "
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
